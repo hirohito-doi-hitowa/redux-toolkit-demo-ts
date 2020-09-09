@@ -1,10 +1,17 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from '@reduxjs/toolkit';
 
+// 型定義
+interface LikesState {
+  value: number;
+}
+
+// 初期値
+const initialState: LikesState = { value: 12 };
+
+// slice
 export const likesSlice = createSlice({
-  name: "likes",
-  initialState: {
-    value: 12,
-  },
+  name: 'likes',
+  initialState,
   reducers: {
     updateCount: (state) => {
       state.value++;

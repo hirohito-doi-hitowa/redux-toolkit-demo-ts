@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
 // thunk action
 export const fetchImage = createAsyncThunk('image/fetchImage', async (_, { getState }) => {
-  const state: any = getState(); // getStateでunkown型を返している
+  const state: any = getState(); // getState()がunkown型を返している
   const characterId = state.image.id + 1;
   const response = await fetch(`https://rickandmortyapi.com/api/character/${characterId}`);
 

@@ -1,4 +1,5 @@
 .card {
+  margin: auto;
   width: 26rem;
 }
 
@@ -24,18 +25,20 @@
 }
 
 form {
+  margin: auto;
   width: 26rem;
   padding: 8px;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
 }
 
-input[type="text"] {
+input[type='text'] {
   border-radius: 22px;
   background: #f2f3f5;
 }
 
 .table {
+  margin: auto;
   width: 26rem;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;

@@ -9,13 +9,11 @@ export default function Count() {
 
   return (
     <div className="row reactions-count">
-      <div className="col-sm" data-align="left">
+      <div className="col-sm">
         <i className="fa fa-thumbs-up" />
         {likesCount}
       </div>
-      <div className="col-sm" data-align="right">
-        {commentsCount} comments
-      </div>
+      <div className="col-sm">{commentsCount} comments</div>
     </div>
   );
 }

@@ -5,7 +5,7 @@ import Comments from './Comments';
 
 export default function Dashboard() {
   return (
-    <div className="container-md" data-align="center">
+    <div className="container-md ">
       <Card />
       <Form />
       <Comments />

@@ -1,10 +1,10 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 // 型定義
-export type CommentsState = Array<string>;
+type CommentsState = Array<string>;
 
 // 初期値
-const initialState = ['Wow', 'awesome'];
+const initialState: CommentsState = ['Wow', 'awesome'];
 
 // slice
 export const commentsSlice = createSlice({
